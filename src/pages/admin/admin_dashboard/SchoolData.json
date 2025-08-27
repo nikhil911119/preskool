@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "name": "Students",
+    "total": 1000,
+    "active": 921,
+    "inactive": 20,
+    "iconUrl": "/images/student.svg",
+    "tabColor": "#E82646"
+  },
+
+  {
+    "id": 1,
+    "name": "Teachers",
+    "total": 100,
+    "active": 92,
+    "inactive": 8,
+    "iconUrl": "/images/teacher.svg",
+    "tabColor": "#05C3FB"
+  },
+  {
+    "id": 2,
+    "name": "Subjects",
+    "total": 25,
+    "active": 20,
+    "inactive": 5,
+    "iconUrl": "/images/subject.svg",
+    "tabColor": "#E82646"
+  },
+  {
+    "id": 3,
+    "name": "Staff",
+    "total": 15,
+    "active": 10,
+    "inactive": 5,
+    "iconUrl": "/images/staff.svg",
+    "tabColor": "#E82646"
+  }
+]

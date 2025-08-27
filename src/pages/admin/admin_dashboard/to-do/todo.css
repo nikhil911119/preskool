@@ -1,0 +1,33 @@
+/* Default checkbox appearance */
+.todo-checkbox[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  appearance: none; /* Remove default checkbox styling */
+  background-color: white;
+  position: relative; /* To position the tick */
+  transition: background-color 0.3s, border-color 0.3s;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Add a tick when the checkbox is checked */
+.todo-checkbox[type="checkbox"]:checked {
+  background-color: #dc2626;
+
+}
+
+/* Creating the checkmark */
+.todo-checkbox[type="checkbox"]:checked::after {
+  content: "✔";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translateX(50%);
+  transform: translatey(-59%);
+  font-size: 16px;
+  color: white;
+}

@@ -1,0 +1,17 @@
+table th,
+table td {
+  padding: 12px 20px;
+  text-align: left;
+  font-size: 14px;
+}
+table th {
+  color: #515b73;
+  font-weight: 500;
+}
+
+table td {
+  color: #515b73;
+}
+thead tr th {
+  background-color: #f2f4f8;
+}

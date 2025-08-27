@@ -1,0 +1,16 @@
+.each-notice .icon {
+  position: relative;
+}
+.each-notice .icon:after {
+  position: absolute;
+  content: " ";
+  bottom: -60px;
+  left: 50%;
+
+  width: 1px;
+  height: 60px;
+  background-color: #e9edf4;
+}
+.each-notice:last-child .icon:after {
+  display: none;
+}

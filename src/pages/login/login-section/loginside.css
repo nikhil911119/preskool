@@ -1,0 +1,23 @@
+.login-or p{
+    position: relative;
+}
+.login-or p::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 47%;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+.login-or p::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 47%;
+    height: 1px;
+    background-color: #dfdfdf;
+}

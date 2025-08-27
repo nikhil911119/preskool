@@ -1,0 +1,53 @@
+.sidebar {
+  background-image: url(" /images/bg-06.jpg");
+  background-repeat: repeat;
+  position: fixed;
+  z-index: 10;
+  overflow: scroll;
+}
+.sidebar-menu::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.744);
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.sidebar .each-menu .menu-item:first-child {
+  background-color: white;
+  color: red;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  background-color: rgb(15, 12, 28);
+  padding: 0;
+}
+
+.dark .sidebar-menu::after {
+  background-color: rgba(15, 12, 28);
+  opacity: 1;
+  color: white;
+}
+.dark ::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(15, 12, 28);
+}
+.dark::-webkit-scrollbar-track {
+  background: rgba(15, 12, 28);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(15, 12, 28);
+}
+.dark .sidebar .each-menu .menu-item:first-child {
+  background-color: rgb(15, 12, 28);
+  color: white;
+}
+.dark .sidebar-menu::after {
+  display: none;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-size: 14px;
+  font-family: "Roboto", serif;
+}
+p {
+  margin-bottom: 0px;
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+  color: #202c4b;
+}
+pre {
+  font-family: "Roboto", serif;
+}
+.react-calendar {
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  border: none !important;
+}
+
+.calendar {
+  border: 1px solid rgb(237, 237, 237);
+  padding: 16px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.react-calendar__month-view__weekdays {
+  font-size: 15px;
+  font-weight: 500;
+}
+abbr:where([title]) {
+  text-decoration: none;
+}
+
+.react-calendar__tile {
+  font-family: "Roboto", serif;
+  font-size: 15px;
+}
+
+.dark body {
+  background-color: rgb(15, 12, 28);
+}
+
+.dark h1,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: white;
+}
